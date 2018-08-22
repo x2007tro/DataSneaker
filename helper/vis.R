@@ -46,9 +46,9 @@ GeneralInspection <- function(dataset){
     
     if(cls == "numeric"){ 
       subset <- round(subset, 2)
-      minv <- min(subset, na.rm = TRUE)
-      maxv <- max(subset, na.rm = TRUE)
-      meanv <- mean(subset, na.rm = TRUE)
+      minv <- round(min(subset, na.rm = TRUE), 2)
+      maxv <- round(max(subset, na.rm = TRUE), 2)
+      meanv <- round(mean(subset, na.rm = TRUE), 2)
       mode <- paste0(Mode(subset))
     } else {
       minv <- -1
