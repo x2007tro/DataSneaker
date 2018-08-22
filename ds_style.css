@@ -1,0 +1,72 @@
+/*  
+ * general
+ */ 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 0;
+}
+
+/*
+ * Frame setting
+ */
+.block_outter_frame {
+  border:0;
+  margin:0; 
+}
+
+.block_inner_frame {
+  width:98%;
+}
+
+.block_title {
+  color:white;
+  font-weight:bold;
+  padding:5px;
+  background-color:rgba(35,43,43,1);
+}
+
+.small_block_title {
+  color:white;
+  font-weight:bold;
+  padding:3px;
+  background-color:orange;
+}
+
+/*
+ * Entry setting
+ */
+.proj_conf_div, .task_div {
+  margin:3px;
+  padding:2px;
+  float:left;
+}
+
+.task_cat_div {
+  font-weight:bold;
+}
+
+.inst_div {
+  margin:28px 5px 5px 5px;
+  padding:5px;
+  border:1px solid rgba(153, 153, 153, 0.8);
+  border-radius:5px;
+  float:left;
+}
+
+#instr_div, #save_div {
+  font-weight:bold;
+  width:80px;
+  padding-top:35px;
+}
+
+#instr_a {
+  color:gray;
+}
+
+/*
+ * Action button style
+ */
+.btn-primary {
+  margin-top:20px;
+}
